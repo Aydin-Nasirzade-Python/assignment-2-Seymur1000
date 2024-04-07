@@ -1,7 +1,7 @@
 #import libraries here
 
 def main():
- length = float(input("Enter the wavelength in nm: "))
+  length = float(input("Enter the wavelength in nm: "))
 
   if length <= 750 and length >= 620:
       print("The relevant color is Red")
